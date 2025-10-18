@@ -110,10 +110,12 @@ function Calcula_Determinante()
 }
 var imagen="original.png";
 function cambioImagen(){
-	if (imagen==="original.png"){
-		
+	if (imagen==="original.png"){		
+		console.log("Imagen 0  ");
 		imagen0 = document.getElementById("id_imagen1");
-		console.log("Imagen 0",imagen0);
+
+		console.log("Imagen 1 :",imagen0);
+
 		imagen="images/nueva.png";
 		imagen0.src=imagen;
 		
