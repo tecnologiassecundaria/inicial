@@ -112,8 +112,9 @@ var imagen="original.png";
 function cambioImagen(){
 	if (imagen==="original.png"){
 		imagen0 = document.getElementById("id_imagen1");
-		imagen0.src="images/nueva.png";
 		imagen="images/nueva.png";
+		imagen0.src=imagen;
+		
 	} else {
 		imagen="images/original.png";
 
