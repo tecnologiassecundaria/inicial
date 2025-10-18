@@ -112,10 +112,10 @@ var imagen="original.png";
 function cambioImagen(){
 	if (imagen==="original.png"){
 		imagen0=document.getElementsByID("id_imagen");
-		imagen0.src="nueva.png";
-		imagen="nueva.png";
+		imagen0.src="images/nueva.png";
+		imagen="images/nueva.png";
 	} else {
-		imagen="original.png";
+		imagen="images/original.png";
 
 	}
 	console.log("Imagen: ", imagen);
