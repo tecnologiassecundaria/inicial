@@ -112,15 +112,13 @@ var imagen="original.png";
 function cambioImagen(){
 	if (imagen==="original.png"){		
 		console.log("Imagen 0  ");
-		imagen0 = document.getElementById("id_imagen1");
-
-		console.log("Imagen 1 :",imagen0);
-
+//		imagen0 = document.getElementById("id_imagen1");
 		imagen="images/nueva.png";
-		imagen0.src=imagen;
+		document.getElementById("id_imagen1").src=imagen;
 		
 	} else {
 		imagen="images/original.png";
+		document.getElementById("id_imagen1").src=imagen;
 
 	}
 	console.log("Imagen: ", imagen);
