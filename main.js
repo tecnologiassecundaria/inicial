@@ -122,5 +122,5 @@ function cambioImagen(){
 
 
 }
-cambioImagen();
-cambioImagen();
+//cambioImagen();
+//cambioImagen();
