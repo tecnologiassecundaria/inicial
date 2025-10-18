@@ -111,7 +111,7 @@ function Calcula_Determinante()
 var imagen="original.png";
 function cambioImagen(){
 	if (imagen==="original.png"){
-		imagen0=document.getElementsByID("id_imagen1");
+		imagen0=document.getElementById("id_imagen1");
 		imagen0.src="images/nueva.png";
 		imagen="images/nueva.png";
 	} else {
